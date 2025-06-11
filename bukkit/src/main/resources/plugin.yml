@@ -1,0 +1,28 @@
+name: ReturnRune
+main: me.fortibrine.returnrune.ReturnRunePlugin
+version: ${version}
+
+api-version: 1.13
+authors: [IJustFortiLive]
+
+commands:
+  home:
+    description: Телепортация домой
+    usage: /home
+  sethome:
+    description: Установить текущую позицию как дом
+    usage: /sethome
+  delhome:
+    description: Удалить позицию дома
+    usage: /delhome
+
+permissions:
+  returnrune.home:
+    description: Позволяет использовать команду /home
+    default: op
+  returnrune.sethome:
+    description: Позволяет использовать команду /sethome
+    default: op
+  returnrune.delhome:
+    description: Позволяет использовать команду /delhome
+    default: op

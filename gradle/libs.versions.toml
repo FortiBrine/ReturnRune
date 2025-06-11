@@ -1,0 +1,15 @@
+[versions]
+spigot = "1.13.2-R0.1-SNAPSHOT"
+lombok = "1.18.30"
+litecommands = "3.9.7"
+sqlite = "3.42.0.0"
+ormlite = "6.1"
+
+[libraries]
+spigot = { module = "org.spigotmc:spigot-api", version.ref = "spigot" }
+lombok = { module = "org.projectlombok:lombok", version.ref = "lombok" }
+litecommands-bukkit = { module = "dev.rollczi:litecommands-bukkit", version.ref = "litecommands" }
+sqlite = { module = "org.xerial:sqlite-jdbc", version.ref = "sqlite" }
+ormlite = { module = "com.j256.ormlite:ormlite-jdbc", version.ref = "ormlite" }
+
+[plugins]
